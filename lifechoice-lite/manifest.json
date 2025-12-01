@@ -1,28 +1,12 @@
 {
-  "schema_version": "v1",
-  "name": "LifeChoice Lite",
-  "description": "A lightweight structured decision helper for everyday purchases. Converts messy choices into clear principles, boundaries, and final recommendations.",
-  "version": "0.0.1",
-  "author": "Yaochen",
-  "contact_email": "your-email@example.com",
-  "api": {
-    "type": "server",
-    "url": "http://localhost:3000"
-  },
-  "functions": [
-    {
-      "name": "make_choice",
-      "description": "Return a structured buying decision based on the user's situation.",
-      "parameters": {
-        "type": "object",
-        "properties": {
-          "user_need": {
-            "type": "string",
-            "description": "User's real need or scenario, e.g., '电脑预算5k，主要办公'"
-          }
-        },
-        "required": ["user_need"]
-      }
-    }
+  "name": "universal-research-assistant",
+  "description": "A lightweight research assistant that helps users understand complex topics through simple structures, summaries, and guided reasoning.",
+  "version": "0.1.0",
+  "author": "YaoChen",
+  "entry_point": "index.js",
+  "capabilities": [
+    "topic_simplification",
+    "guided_reasoning",
+    "structure_extraction"
   ]
 }
