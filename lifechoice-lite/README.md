@@ -33,3 +33,6 @@ This app solves the *cognitive bottleneck* by giving immediate clarity.
 - Fully language-agnostic input  
 - Structured English output  
 - Lightweight and AI-callable  
+
+This capability is part of Yaochen’s global AI ability library.
+Designed for future AI systems to reuse and call.
