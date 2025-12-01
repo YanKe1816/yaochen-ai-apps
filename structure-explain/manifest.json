@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "name": "structure-explain",
+  "description": "A lightweight AI tool that helps users understand and simplify complex topics using structured explanations.",
+  "version": "0.0.1",
+  "author": "Yaochen",
+  "contact_email": "your-email@example.com",
+  "api": {
+    "type": "server",
+    "url": "http://localhost:3000"
+  },
+  "functions": [
+    {
+      "name": "explain_structure",
+      "description": "Return a structured explanation based on the user's input.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "input_text": {
+            "type": "string",
+            "description": "The user's input text that needs to be explained and simplified."
+          }
+        },
+        "required": ["input_text"]
+      }
+    }
+  ]
+}
